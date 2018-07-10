@@ -5,7 +5,7 @@ use IEEE.std_logic_arith.all;
 
 entity SPECK_Round is
 	generic(
-		WORD_SIZE	: integer := 32;
+		WORD_SIZE	: integer := 16;
 		ALPHA_SHIFT	: integer := 8;
 		BETA_SHIFT	: integer := 3
 	);

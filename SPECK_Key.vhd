@@ -26,9 +26,8 @@ begin
 data_in_a <= data_in(0 to WORD_SIZE-1);
 data_in_b <= data_in(WORD_SIZE to 2*WORD_SIZE-1);
 
-
-r_shift_alfa <= data_in_a(WORD_SIZE-ALPHA_SHIFT- 1 to WORD_SIZE-1) & data_in_a(0 to WORD_SIZE-ALPHA_SHIFT);
-l_shift_beta <= data_in_b(BETA_SHIFT to WORD_SIZE-BETA_SHIFT-1) & data_in_b(0 to BETA_SHIFT-1);
+r_shift_alfa <= data_in_a(WORD_SIZE-ALPHA_SHIFT to WORD_SIZE-1) & data_in_a(0 to WORD_SIZE-ALPHA_SHIFT-1);
+l_shift_beta <= data_in_b(BETA_SHIFT to WORD_SIZE-1) & data_in_b(0 to BETA_SHIFT-1);
 
 adder <= unsigned(r_shift_alfa) + unsigned(data_in_b);
 key_xor <= round_key xor adder;
