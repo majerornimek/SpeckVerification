@@ -6,8 +6,8 @@ use IEEE.std_logic_arith.all;
 entity SPECK_Round is
 	generic(
 		WORD_SIZE	: integer := 16;
-		ALPHA_SHIFT	: integer := 8;
-		BETA_SHIFT	: integer := 3
+		ALPHA_SHIFT	: integer := 7;
+		BETA_SHIFT	: integer := 2
 	);
 	port(
 		data_in : in std_logic_vector(0 to 2*WORD_SIZE-1);
