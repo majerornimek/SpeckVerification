@@ -1,0 +1,87 @@
+C:\Users\mandrzejczak\AppData\Local\Programs\Python\Python37-32\python.exe C:/Users/mandrzejczak/Documents/GitHub/SatWD/Python/main.py
+Next subkey:  0x3fe4
+Next subkey:  0xd39f
+Next subkey:  0x34f
+Next subkey:  0xae46
+Next subkey:  0x7580
+Next subkey:  0x1e
+Next subkey:  0xf51a
+Next subkey:  0xfedf
+Next subkey:  0xc5fc
+Next subkey:  0x9c1c
+Next subkey:  0x7409
+Next subkey:  0xaaa8
+Next subkey:  0x2311
+Next subkey:  0x9550
+Next subkey:  0xe509
+Next subkey:  0xd834
+Next subkey:  0x60a5
+Next subkey:  0x7a81
+Next subkey:  0x4b0e
+Next subkey:  0x1b24
+Next subkey:  0x2990
+Next subkey:  0x1512
+Next subkey:  0x617d
+Next subkey:  0x1458
+Next subkey:  0x6919
+Next subkey:  0x77e2
+Next subkey:  0xc89
+Next subkey:  0xccdb
+Next subkey:  0xefea
+Next subkey:  0x4e33
+Next subkey:  0x76f4
+Next subkey:  0x5976
+Next subkey:  0xee8b
+Next subkey:  0xdb04
+Next subkey:  0x4617
+Next subkey:  0xf37e
+Next subkey:  0x87b4
+Next subkey:  0x8eca
+Next subkey:  0xed9b
+Next subkey:  0x3a52
+Next subkey:  0x8229
+Next subkey:  0xed64
+Before Round:  0  , CTXT:  0x6574694c  , Key:  0x100
+After Round:  0  , CTXT:  0x5316f627  , Key:  0x100
+Before Round:  1  , CTXT:  0x5316f627  , Key:  0x1512
+After Round:  1  , CTXT:  0x37dfef40  , Key:  0x1512
+Before Round:  2  , CTXT:  0x37dfef40  , Key:  0x617d
+After Round:  2  , CTXT:  0xccd271d1  , Key:  0x617d
+Before Round:  3  , CTXT:  0xccd271d1  , Key:  0x1458
+After Round:  3  , CTXT:  0x332c477  , Key:  0x1458
+Before Round:  4  , CTXT:  0x332c477  , Key:  0x6919
+After Round:  4  , CTXT:  0x416450bb  , Key:  0x6919
+Before Round:  5  , CTXT:  0x416450bb  , Key:  0x77e2
+After Round:  5  , CTXT:  0x6edf2c32  , Key:  0x77e2
+Before Round:  6  , CTXT:  0x6edf2c32  , Key:  0xc89
+After Round:  6  , CTXT:  0xe786574e  , Key:  0xc89
+Before Round:  7  , CTXT:  0xe786574e  , Key:  0xccdb
+After Round:  7  , CTXT:  0xa9c6f4ff  , Key:  0xccdb
+Before Round:  8  , CTXT:  0xa9c6f4ff  , Key:  0xefea
+After Round:  8  , CTXT:  0x6db8be47  , Key:  0xefea
+Before Round:  9  , CTXT:  0x6db8be47  , Key:  0x4e33
+After Round:  9  , CTXT:  0x6111980f  , Key:  0x4e33
+Before Round:  10  , CTXT:  0x6111980f  , Key:  0x76f4
+After Round:  10  , CTXT:  0xcc25ac1b  , Key:  0x76f4
+Before Round:  11  , CTXT:  0xcc25ac1b  , Key:  0x5976
+After Round:  11  , CTXT:  0xaec51eab  , Key:  0x5976
+Before Round:  12  , CTXT:  0xaec51eab  , Key:  0xee8b
+After Round:  12  , CTXT:  0x44833e2f  , Key:  0xee8b
+Before Round:  13  , CTXT:  0x44833e2f  , Key:  0xdb04
+After Round:  13  , CTXT:  0x9fbc6700  , Key:  0xdb04
+Before Round:  14  , CTXT:  0x9fbc6700  , Key:  0x4617
+After Round:  14  , CTXT:  0xa6283a29  , Key:  0x4617
+Before Round:  15  , CTXT:  0xa6283a29  , Key:  0xf37e
+After Round:  15  , CTXT:  0x780b90af  , Key:  0xf37e
+Before Round:  16  , CTXT:  0x780b90af  , Key:  0x87b4
+After Round:  16  , CTXT:  0x202b6295  , Key:  0x87b4
+Before Round:  17  , CTXT:  0x202b6295  , Key:  0x8eca
+After Round:  17  , CTXT:  0x361fbc4a  , Key:  0x8eca
+Before Round:  18  , CTXT:  0x361fbc4a  , Key:  0xed9b
+After Round:  18  , CTXT:  0x172de607  , Key:  0xed9b
+Before Round:  19  , CTXT:  0x172de607  , Key:  0x3a52
+After Round:  19  , CTXT:  0x7a67e278  , Key:  0x3a52
+Before Round:  20  , CTXT:  0x7a67e278  , Key:  0x8229
+After Round:  20  , CTXT:  0x3345baa6  , Key:  0x8229
+Before Round:  21  , CTXT:  0x3345baa6  , Key:  0xed64
+After Round:  21  , CTXT:  0xa86842f2  , Key:  0xed64
