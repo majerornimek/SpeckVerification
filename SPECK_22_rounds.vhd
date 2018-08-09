@@ -95,8 +95,8 @@ keyg: for i in 0 to NUM_ROUNDS generate
 		
 		firstk: if i=0 generate
 			kp: SPECK_Key port map(
-				data_in_a => key(3*WORD_SIZE to 4*WORD_SIZE-1),
-				data_in_b => key(2*WORD_SIZE to 3*WORD_SIZE-1),
+				data_in_a => key(2*WORD_SIZE to 3*WORD_SIZE-1),
+				data_in_b => key(3*WORD_SIZE to 4*WORD_SIZE-1),
 				round_key => std_logic_vector(to_unsigned(i,WORD_SIZE)),
 				data_out_a => key_tmp(3),
 				data_out_b => round_key_sig(i+1)

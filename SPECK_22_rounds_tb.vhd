@@ -23,16 +23,16 @@ end component;
 
 
 signal DataIN, DataOut : std_logic_vector(0 to 31);
-signal KeyIn : std_logic_vector(0 to 63)
+signal KeyIn : std_logic_vector(0 to 63);
 signal clk : std_logic := '0';
 constant clk_period : time := 10 ps;
 begin
 
-uut: SPECK_22_rounds is
+uut: SPECK_22_rounds 
 	port map(
 		data_in 	=> DataIN,
 		key 		=> KeyIn,
-		data_out	DataOut
+		data_out	=> DataOut
 	);
 
    Clk_process :process
@@ -47,8 +47,8 @@ uut: SPECK_22_rounds is
 	stim_proc: process
    begin        
         wait for CLK_PERIOD;
-        DataIn <= x"65656877";
-		  KeyIn <= x" 1918111009080100"
+        DataIn <= x"6574694c";
+		  KeyIn <= x"1918111009080100";
         wait for CLK_PERIOD*20;
         wait;
   end process;
